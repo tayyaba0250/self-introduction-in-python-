@@ -8,3 +8,14 @@ current_year = 2026
 age = current_year - birth_year
 
 print(name, "is", age, "years old.")
+
+
+#strings 
+
+first_name = input("Enter first name: ")
+last_name = input("Enter last name: ")
+
+full_name = first_name + " " + last_name
+
+print("Full name:", full_name)
+print("Length:", len(full_name))
