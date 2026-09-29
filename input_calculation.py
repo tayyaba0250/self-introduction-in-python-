@@ -19,3 +19,11 @@ full_name = first_name + " " + last_name
 
 print("Full name:", full_name)
 print("Length:", len(full_name))
+
+#if else 
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
