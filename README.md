@@ -42,6 +42,16 @@ full_name = first_name + " " + last_name
 print("Full name:", full_name)
 print("Length:", len(full_name))
 
+#basic calculator 
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
 #if else 
 
 number = int(input("Enter a number: "))
