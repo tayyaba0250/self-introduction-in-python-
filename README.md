@@ -60,3 +60,20 @@ if number % 2 == 0:
     print("Even number")
 else:
     print("Odd number")
+
+#mini calculator 
+
+a = float(input("Enter first number: "))
+operator = input("Enter +, -, *, or /: ")
+b = float(input("Enter second number: "))
+
+if operator == "+":
+    print(a + b)
+elif operator == "-":
+    print(a - b)
+elif operator == "*":
+    print(a * b)
+elif operator == "/":
+    print(a / b)
+else:
+    print("Invalid operator")
