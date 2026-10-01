@@ -36,3 +36,20 @@ print("Addition:", a + b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
+
+
+#mini calculator
+a = float(input("Enter first number: "))
+operator = input("Enter +, -, *, or /: ")
+b = float(input("Enter second number: "))
+
+if operator == "+":
+    print(a + b)
+elif operator == "-":
+    print(a - b)
+elif operator == "*":
+    print(a * b)
+elif operator == "/":
+    print(a / b)
+else:
+    print("Invalid operator")
