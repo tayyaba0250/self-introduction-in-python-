@@ -1,4 +1,4 @@
-#input and calculation 
+2#input and calculation 
 
 
 name = input("Enter your name: ")
@@ -53,3 +53,13 @@ elif operator == "/":
     print(a / b)
 else:
     print("Invalid operator")
+# greater number
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print(a, "is greater")
+elif b > a:
+    print(b, "is greater")
+else:
+    print("Both are equal")
