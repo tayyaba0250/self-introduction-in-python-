@@ -8,7 +8,7 @@ favorite coding= "python."
 print(name)
 print(age)
 print(course)
-print (favorite coding)
+print (favorite coding)ß
 
 #login checker 
 
@@ -18,4 +18,11 @@ password = input("Password: ")
 if username == "admin" and password == "1234":
     print("Login successful")
 else:
-    print("Invalid username or password")
+    
+
+
+# multiplication table
+number = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
