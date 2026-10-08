@@ -100,3 +100,10 @@ if username == "admin" and password == "1234":
     print("Login successful")
 else:
     print("Invalid username or password")
+
+#Multiplication table 
+
+number = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
