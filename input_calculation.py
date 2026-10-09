@@ -76,3 +76,13 @@ elif b > a:
     print(b, "is greater")
 else:
     print("Both are equal")
+
+#countdown 
+
+number = int(input("Enter starting number: "))
+
+while number >= 0:
+    print(number)
+    number -= 1
+
+print("Done!")
