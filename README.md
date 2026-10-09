@@ -107,3 +107,12 @@ number = int(input("Enter a number: "))
 
 for i in range(1, 11):
     print(number, "x", i, "=", number * i)
+
+#countdown 
+number = int(input("Enter starting number: "))
+
+while number >= 0:
+    print(number)
+    number -= 1
+
+print("Done!")
