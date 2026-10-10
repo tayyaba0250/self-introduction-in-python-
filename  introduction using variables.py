@@ -26,3 +26,17 @@ number = int(input("Enter a number: "))
 
 for i in range(1, 11):
     print(number, "x", i, "=", number * i)
+
+#number guessing game 
+
+import random
+
+secret = random.randint(1, 10)
+
+guess = int(input("Guess a number from 1 to 10: "))
+
+if guess == secret:
+    print("Correct!")
+else:
+    print("Wrong!")
+    print("The number was", secret)
