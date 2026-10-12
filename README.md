@@ -152,3 +152,17 @@ else:
     print("Wrong!")
 
 print("Your score:", score, "/ 2")
+
+#contact book
+
+contacts = {}
+
+name = input("Enter contact name: ")
+phone = input("Enter phone number: ")
+
+contacts[name] = phone
+
+print("\nContacts:")
+
+for name, phone in contacts.items():
+    print(name, ":", phone)
