@@ -197,3 +197,17 @@ numbers = [1, 2, 2, 3, 4, 4, 5, 5]
 unique_numbers = set(numbers)
 
 print(unique_numbers)
+
+#contact book 
+
+contacts = {}
+
+name = input("Enter contact name: ")
+phone = input("Enter phone number: ")
+
+contacts[name] = phone
+
+print("\nContacts:")
+
+for name, phone in contacts.items():
+    print(name, ":", phone)
