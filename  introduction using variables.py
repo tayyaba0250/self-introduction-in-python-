@@ -54,3 +54,10 @@ print("\nContacts:")
 
 for name, phone in contacts.items():
     print(name, ":", phone)
+
+#Tuple
+student = ("xxxx", 16, "Class 10")
+
+print("Name:", student[0])
+print("Age:", student[1])
+print("Class:", student[2])
