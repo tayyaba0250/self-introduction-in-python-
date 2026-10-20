@@ -61,3 +61,14 @@ student = ("xxxx", 16, "Class 10")
 print("Name:", student[0])
 print("Age:", student[1])
 print("Class:", student[2])
+
+#functions 
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+print(add(10, 5))
+print(subtract(10, 5))
