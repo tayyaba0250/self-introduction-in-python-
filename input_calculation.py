@@ -94,3 +94,13 @@ numbers = [1, 2, 2, 3, 4, 4, 5, 5]
 unique_numbers = set(numbers)
 
 print(unique_numbers)
+
+#return values 
+def square(number):
+    return number * number
+
+number = int(input("Enter a number: "))
+
+result = square(number)
+
+print("Square:", result)
