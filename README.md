@@ -1,4 +1,4 @@
-8⁷
+88⁷
 # self-introduction-in-python-
 
 
@@ -230,3 +230,14 @@ def subtract(a, b):
 
 print(add(10, 5))
 print(subtract(10, 5))
+
+#return values 
+
+def square(number):
+    return number * number
+
+number = int(input("Enter a number: "))
+
+result = square(number)
+
+print("Square:", result)
