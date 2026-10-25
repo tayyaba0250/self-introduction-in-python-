@@ -104,3 +104,10 @@ number = int(input("Enter a number: "))
 result = square(number)
 
 print("Square:", result)
+
+#Random number generator 
+import random
+
+number = random.randint(1, 100)
+
+print("Random number:", number)
