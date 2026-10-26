@@ -248,3 +248,16 @@ import random
 number = random.randint(1, 100)
 
 print("Random number:", number)
+
+#Error handling 
+try:
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+
+    print("Result:", a / b)
+
+except ZeroDivisionError:
+    print("You cannot divide by zero.")
+
+except ValueError:
+    print("Please enter numbers only.")
