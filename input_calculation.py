@@ -125,3 +125,21 @@ except ZeroDivisionError:
 
 except ValueError:
     print("Please enter numbers only.")
+
+#student records 
+
+students = []
+
+for i in range(3):
+    name = input("Enter student name: ")
+    marks = int(input("Enter marks: "))
+
+    students.append({
+        "name": name,
+        "marks": marks
+    })
+
+print("\nStudent Records:")
+
+for student in students:
+    print(student["name"], "-", student["marks"])
